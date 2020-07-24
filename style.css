@@ -1,3 +1,6 @@
+body{
+    margin: 0px;
+}
 .about, .projects_heading{
     font-family: 'Maven Pro', sans-serif;
     color: #e8e5e3;
@@ -13,30 +16,40 @@
   }
 .top-background{
     height:100%;
-    background-image: url("https://img.freepik.com/free-photo/dark-blue-glow-dust-particle-abstract-background_35672-1414.jpg?size=626&ext=jpg");
+    background-image: url("https://wallpaperaccess.com/full/99791.jpg");
 }
-.page{
+.projects_heading{
     background-color: grey;
 }
-
 .mainImg{
     width: 250px;
-    float: none;
-    padding-right:30px;
-    padding-top: 20px;
+    padding:20px 20px 20px 20px;
+    float: left;
+}
+.page{
+    background-color: #222623;
 }
 @media(max-width: 620px){
     .mainImg{
         width: 100%;
         text-align: center;
+        padding-top: 0px;
+        margin-right: 20px;
+        padding-left: 0px;
     }
-}
-.main{
-    clear: both;
 }
 h1, .bio{
     text-align: center;
 }
+h1{
+    margin-top:0px;
+}
+.bio{
+    padding-bottom:435px;
+    overflow:hidden;
+}
 .projects_heading{
-    padding-top: 50px;
+    overflow:hidden;
+    padding:20px;    
+    clear: both;
 }
