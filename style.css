@@ -1,21 +1,29 @@
-body{
-    background-color:#bad6e8;
-}
 .about, .projects_heading{
     font-family: 'Maven Pro', sans-serif;
     color: #e8e5e3;
-    padding: 10px; 
+     
+}
+.image-box {
+    opacity: 0.9;
+    background-color: rgb(122, 44, 44);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+.top-background{
+    height:100%;
+    background-image: url("https://img.freepik.com/free-photo/dark-blue-glow-dust-particle-abstract-background_35672-1414.jpg?size=626&ext=jpg");
 }
 .page{
     background-color: grey;
-    margin: 20px;
 }
 
 .mainImg{
     width: 250px;
-    float: left;
+    float: none;
     padding-right:30px;
-    margin-top: 20px;
+    padding-top: 20px;
 }
 @media(max-width: 620px){
     .mainImg{
@@ -24,7 +32,6 @@ body{
     }
 }
 .main{
-    margin: 20px 50px 20px 50px;
     clear: both;
 }
 h1, .bio{
