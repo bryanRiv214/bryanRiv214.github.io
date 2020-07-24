@@ -1,5 +1,5 @@
 body{
-    /* background-color: grey; */
+    background-color:#bad6e8;
 }
 .about, .projects_heading{
     font-family: 'Maven Pro', sans-serif;
@@ -17,7 +17,7 @@ body{
     padding-right:30px;
     margin-top: 20px;
 }
-@media(max-width: 700px){
+@media(max-width: 300px){
     .mainImg{
         width: 100%;
     }
