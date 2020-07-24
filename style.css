@@ -17,9 +17,10 @@ body{
     padding-right:30px;
     margin-top: 20px;
 }
-@media(max-width: 300px){
+@media(max-width: 620px){
     .mainImg{
         width: 100%;
+        text-align: center;
     }
 }
 .main{
