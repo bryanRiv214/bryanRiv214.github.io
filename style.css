@@ -15,8 +15,9 @@ body{
     background-attachment: fixed;
   }
 .top-background{
-    height:100%;
-    background-image: url("https://wallpaperaccess.com/full/99791.jpg");
+    width:100%;
+    
+    background-image: url("https://wallpaperstock.net/starry-sky%2C-stars%2C-universe_wallpapers_54641_1920x1080.jpg");
 }
 .projects_heading{
     background-color: grey;
@@ -38,18 +39,29 @@ body{
         padding-left: 0px;
     }
 }
-h1, .bio{
+.aboutMe{
     text-align: center;
 }
-h1{
+.aboutMe{
     margin-top:0px;
+    padding-top:20px;
+    font-size: 35px;
 }
 .bio{
-    padding-bottom:435px;
+    padding:0px 30px 20px 30px;
+    font-size: 18px;
     overflow:hidden;
 }
 .projects_heading{
     overflow:hidden;
     padding:20px;    
     clear: both;
+}
+li{
+    padding:10px;
+}
+.projects_button{
+    display:flex;
+    justify-content: center;
+    align-items: center;    
 }
