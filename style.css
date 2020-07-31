@@ -30,7 +30,7 @@ body{
 .page{
     background-color: #222623;
 }
-@media(max-width: 620px){
+@media(max-width: 500px){
     .mainImg{
         width: 100%;
         text-align: center;
@@ -63,5 +63,10 @@ li{
 .projects_button{
     display:flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
+    margin:auto;    
+}
+.projects_heading{
+    padding-bottom:200px;
+    margin-bottom:0
 }
