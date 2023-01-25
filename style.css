@@ -5,7 +5,48 @@ body{
     background-repeat: repeat;
     scroll-behavior: smooth;
 }
-.about, .projects_heading, .text, .end, .aboutMe_heading, .email{
+a{
+    text-decoration: none;
+}
+#navBar{
+    z-index: 950;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #272f48;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+}
+.nav_Link{
+    width: 25%;
+}
+.nav_Item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding:.5vh; */
+    height: 50px;
+    /* padding-top:25px; */
+    text-align: center;
+    overflow: hidden;
+    font-size: 1.5vw;
+}
+.nav_Item:hover{
+    transition: 300ms;
+    opacity: 50%;
+}
+.nav_Img{
+    width: 3vw;
+}
+.nav_Img:hover{
+    transition: 300ms;
+    opacity: 50%;
+}
+.about, .projects_heading, .text, .end, .aboutMe_heading, .email,.nav_Item{
     font-family: 'Maven Pro', sans-serif;
     color: #eaebef;
 }
@@ -24,7 +65,7 @@ body{
     width: 25vw;
 }
 .right_main_text{
-    padding-left: 5vw;
+    padding-left: 5vmin;
 }
 .intro2, .intro3{
     text-align: center;
@@ -46,9 +87,11 @@ body{
 .college_pics{
     height: 12vw;
     padding-right: 2vw;
+    padding-left: 1vw;
 }
 .college_pics:hover{
     opacity: 50%;
+    transition: 300ms;
     cursor: pointer;
 }
 .projects_heading{
@@ -101,7 +144,7 @@ body{
     text-align: center;
 }
 .aboutMe_info{
-    font-size: 1.75vw;
+    font-size: 1.6vw;
     line-height: 1.2;
 }
 .aboutImg{
@@ -126,16 +169,20 @@ body{
 .project_title{
     font-size: 4vh;
     text-align: center;
+    text-decoration: none;
+    
 }
 .project_sum{
     font-size: 2.5vh;
     line-height: 1.2;
 }
 .puzzleImg:hover{
+    transition: 300ms;
 	opacity:0.5;
 }
 .projectImg:hover
 {
+    transition:300ms;
 	opacity:0.5;
 }
 .end{
@@ -159,6 +206,9 @@ body{
         flex-direction: column;
         align-items: center;
     }
+    #navBar{
+        display: none;
+    }
     .top-background{
         align-items: center;
     }
@@ -172,6 +222,9 @@ body{
     }
     .aboutMe_heading{
         font-size: 4vw;
+    }
+    .project_title{
+        text-align: center;
     }
     .aboutMe_info{
         font-size: 3vw;

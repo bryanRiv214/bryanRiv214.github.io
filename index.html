@@ -6,15 +6,17 @@
         <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" href="Pictures/fav.png" type="image/gif" sizes="16x16">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" defer></script>
+        <script src = "main.js" defer></script>
     </head>
     <body>
         <div id="navBar">
-            <div class=""></div>
-            <div></div>
-            <div></div>
-            <div></div>
+            <a href = "index.html"><img class = "nav_Img" src = "Pictures/fav.png"></a>
+            <a class = "nav_Link" href = "#about_id"><div class="nav_Item">About</div></a>
+            <a class = "nav_Link" href = "#projects_id"><div class="nav_Item">Projects</div></a>
+            <a class = "nav_Link" href = "#contact_id"><div class="nav_Item">Contact</div></a>
         </div>
-        <div class="top-background">
+        <div class="top-background" id="top_id">
             <div class="about">
                 <img class="mainImg" src="Pictures/home.jpg">
                 <div class="right_main_text">
@@ -25,7 +27,7 @@
             </div>
         </div>
         <div class = "aboutMe">
-            <h1 class = "aboutMe_heading">
+            <h1 class = "aboutMe_heading" id="about_id">
                About Me
             </h1>
             <article class="aboutMe_container">
@@ -40,16 +42,18 @@
                 
                 <div class="text">
                     <p class="aboutMe_info">
-                        Hey there! <br>My name is Bryan Rivera and I'm currently a 19 year old computer science student based in New York City.
-                        <br><br>At the moment I am going through my fall semester at Brooklyn College under the Macaulay Honors Program!<br><br> I have experience in HTML, CSS, JS, Java, UNIX, SQL, and a variety of libraries and frameworks.<br>
-                    <br> My mission is to pay it forward. I have a fervor for learning and I want to give back to the people and communities that gave so much to me.
+                        Hey there! 
+                        <br><br>My name is Bryan Rivera and I'm currently a 19 year old computer science student based in New York City.
+                        <br><br>At the moment I am going through my fall semester at Brooklyn College under the Macaulay Honors Program!<br><br> I have experience in HTML, CSS, JS, Java, UNIX, SQL, and a variety of libraries and frameworks.
+                        <br><br> My mission is to pay it forward. I have a fervor for learning and I want to give back to the people and communities that gave so much to me.
+                        <br><br>Thanks for visiting my site!
                     </p>
                 </div>
                 <img src="Pictures/headshot_cropped.png"  alt="aboutMeImg" class="aboutImg">
             </article>
         </div>
         <div class = "projects">
-            <h1 class = "projects_heading">
+            <h1 class = "projects_heading" id ="projects_id">
                 My Projects
             </h1>
             <article class="container">
@@ -94,7 +98,7 @@
                 </div>
             </article>
         </div>
-        <div class = "end">
+        <div class = "end" id ="contact_id">
             <div class = "logo_div">
                 <a href ="https://github.com/bryanRiv214" target="_blank"><img src = "Pictures/github.png" alt="github" class="logos"/></a>
                 <a href ="https://www.linkedin.com/in/bryan-rivera-bb74851b4" target="_blank"><img src = "Pictures/linkedIn.png" alt="linkedIn" class="logos"/></a>
